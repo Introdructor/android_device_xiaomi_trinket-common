@@ -449,3 +449,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.storage_manager.enabled=true \
     net.tethering.noprovisioning=true
 
+# XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
