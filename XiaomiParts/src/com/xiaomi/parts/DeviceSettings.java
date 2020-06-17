@@ -47,16 +47,15 @@ public class DeviceSettings extends PreferenceFragment implements
     public static final String TORCH_2_BRIGHTNESS_PATH = "/sys/class/leds/led:torch_1/max_brightness";
 
     public static final String PREF_CHARGING_LED = "charging_led";
-    public static final String CHARGING_LED_PATH = "/sys/devices/soc/leds-atc-25" +
-            "/driver/leds-atc-25/leds/charging/max_brightness";
+    public static final String CHARGING_LED_PATH = "/sys/class/leds/charging/max_brightness";
 
     public static final String PREF_BACKLIGHT_DIMMER = "backlight_dimmer";
     public static final String BACKLIGHT_DIMMER_PATH = "/sys/module/mdss_fb/parameters/backlight_dimmer";
 
-    public static final String KEY_VIBSTRENGTH = "vib_strength";    
+    public static final String KEY_VIBSTRENGTH = "vib_strength";
     public static final String KEY_CALL_VIBSTRENGTH = "vib_call_strength";
     public static final String KEY_NOTIF_VIBSTRENGTH = "vib_notif_strength";
-    
+
     public static final String CATEGORY_DISPLAY = "display";
     public static final String PREF_DEVICE_KCAL = "device_kcal";
 
