@@ -142,6 +142,7 @@ vendor/etc/SVIConfig.xml
 # DPM
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk
 framework/tcmclient.jar
+lib64/libcutils.so:product/lib64/libcutils-v29.so
 product/bin/dpmd
 product/etc/dpm/dpm.conf
 product/etc/init/dpmd.rc
